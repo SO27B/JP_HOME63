@@ -1,0 +1,23 @@
+{
+  "name": "JP Home Évaluation Livreurs",
+  "short_name": "JP Home",
+  "description": "Application installable de notation des livreurs JP Home.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#b91c1c",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
