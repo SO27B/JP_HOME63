@@ -1,4 +1,4 @@
-const CACHE_NAME = "jp-home-pwa-v1";
+const CACHE_NAME = "jp-home-complet-v1";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
@@ -23,7 +23,5 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
-  event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
-  );
+  event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request)));
 });
